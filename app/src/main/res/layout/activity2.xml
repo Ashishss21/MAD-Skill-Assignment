@@ -4,17 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginLeft="88dp"
-        android:layout_marginTop="336dp"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
         android:gravity="center_horizontal"
         android:text="@string/menu2"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-68dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/con1"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5sp"
+            android:text="@string/title1" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="320dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="30sp"
+            android:text="@string/desc1" />
+
+
+    </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

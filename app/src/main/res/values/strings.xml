@@ -1,53 +1,19 @@
 <resources>
     <string name="app_name">MAD_SKILL_ASSIGNMENT</string>
     <string name="main">Menu</string>
-    <string name="option1">Menu Example 1</string>
-    <string name="option2">Menu Example 2</string>
-    <string name="menu1">This is menu screen 1</string>
-    <string name="menu2">This is menu screen 2</string>
+    <string name="option1">Menu</string>
+    <string name="option2">Cart</string>
+    <string name="option3">About us</string>
+    <string name="menu1">Dishes</string>
+    <string name="menu2">Cart</string>
 
-    <string-array name="dishes">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>0</item>
-    </string-array>
-    <string-array name="desc">
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-        <item>This is random description</item>
-    </string-array>
+    <string name="title1">Tandoori Chicken</string>
+    <string name="desc1">Tandoori chicken is a chicken dish prepared by roasting chicken marinated in yogurt and spices in a tandoor, a cylindrical clay oven.</string>
+
+    <string name="title2">Pav Bhaji</string>
+    <string name="desc2">Pav bhaji is a fast food dish from India consisting of a thick vegetable curry served with a soft bread roll. Its origins are in the state of Maharashtra.</string>
+
+    <string name="con1">Dish1</string>
+    <string name="con2">Dish2</string>
+
 </resources>
